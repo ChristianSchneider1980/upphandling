@@ -1,0 +1,27 @@
+.container {
+  width: 80%;
+  height: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.sub-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    height: 600px;
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+  }
+}
